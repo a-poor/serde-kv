@@ -1,6 +1,6 @@
 [package]
 name = "serde-kv"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "A serde data format for flat key=value lines (e.g. `foo=bar baz=42`)."
 authors = ["Austin Poor <45295232+a-poor@users.noreply.github.com>"]
