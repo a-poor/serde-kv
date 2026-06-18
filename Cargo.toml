@@ -1,0 +1,11 @@
+[package]
+name = "serde-kv"
+version = "0.1.0"
+edition = "2024"
+authors = ["Austin Poor <45295232+a-poor@users.noreply.github.com>"]
+
+[dependencies]
+serde = { version = "1", default-features = false, features = ["std"] }
+
+[dev-dependencies]
+serde = { version = "1", features = ["std", "derive"] }
