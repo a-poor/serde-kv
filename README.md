@@ -1,5 +1,9 @@
 # serde-kv
 
+[![crates.io](https://img.shields.io/crates/v/serde-kv.svg)](https://crates.io/crates/serde-kv)
+[![docs.rs](https://docs.rs/serde-kv/badge.svg)](https://docs.rs/serde-kv)
+[![license](https://img.shields.io/crates/l/serde-kv.svg)](#license)
+
 `serde-kv` is a [serde](https://github.com/serde-rs/serde) data format implementation
 for a basic key/value string.
 

@@ -6,6 +6,7 @@ description = "A serde data format for flat key=value lines (e.g. `foo=bar baz=4
 authors = ["Austin Poor <45295232+a-poor@users.noreply.github.com>"]
 license = "Apache-2.0 OR MIT"
 repository = "https://github.com/a-poor/serde-kv"
+documentation = "https://docs.rs/serde-kv"
 readme = "README.md"
 keywords = ["serde", "kv", "key-value", "parser", "serialization"]
 categories = ["encoding", "parsing"]
