@@ -3,6 +3,8 @@ name = "serde-kv"
 version = "0.1.0"
 edition = "2024"
 authors = ["Austin Poor <45295232+a-poor@users.noreply.github.com>"]
+license = "Apache-2.0 OR MIT"
+repository = "https://github.com/a-poor/serde-kv"
 
 [dependencies]
 serde = { version = "1", default-features = false, features = ["std"] }
@@ -10,3 +12,8 @@ serde = { version = "1", default-features = false, features = ["std"] }
 [dev-dependencies]
 serde = { version = "1", features = ["std", "derive"] }
 proptest = "1"
+criterion = "0.5"
+
+[[bench]]
+name = "kv"
+harness = false
