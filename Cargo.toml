@@ -9,3 +9,4 @@ serde = { version = "1", default-features = false, features = ["std"] }
 
 [dev-dependencies]
 serde = { version = "1", features = ["std", "derive"] }
+proptest = "1"
