@@ -12,7 +12,7 @@ foo=bar baz=42 cool=true message="hello world"
 
 There is **no type inference at the format level** — the type comes from the target
 struct field. A raw token like `42` becomes the string `"42"` for a `String` field,
-or the integer `42` for a `u64` field. Quotes are purely a transport detail, so
+or the integer `42` for a `u64` field. Quotes are purely for parsing, so
 `foo=42` and `foo="42"` decode to the same value.
 
 ## Example
